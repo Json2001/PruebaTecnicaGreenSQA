@@ -24,7 +24,7 @@ src/
 ## Requisitos
 
 - Java 17
-- Gradle o Maven
+- Gradle y Maven
 - Google Chrome
 - Archivo CSV con datos de entrada ubicado en:  
   `C:\generar-datos\output\usuarios.csv`
