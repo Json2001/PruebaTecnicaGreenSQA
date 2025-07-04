@@ -17,7 +17,6 @@ src/
 │   └── runner/    # Test Runner
 └── test/resources/
     ├── features/  # Archivos .feature
-    └── data/      # CSV de entrada (si aplica)
 ```
 
 ---
@@ -29,7 +28,7 @@ src/
 - Google Chrome
 - Archivo CSV con datos de entrada ubicado en:  
   `C:\generar-datos\output\usuarios.csv`
-
+-El archivo CSV debe generarse primero antes de ejecutar este framework.
 
 ---
 
@@ -48,7 +47,9 @@ build/reports/tests/test/index.html
 ### Si usas Gradle:
 
 ```bash
-gradle clean test
+gradle clean 
+gradle build
+gradle test
 ```
 
 > También puedes ejecutar desde tu IDE con clic derecho sobre el runner.
