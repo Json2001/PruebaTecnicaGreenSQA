@@ -1,4 +1,4 @@
-# ✈️ Prueba Técnica LATAM – Automatización con Selenium + Cucumber
+# Prueba Técnica LATAM – Automatización con Selenium + Cucumber
 
 nota: Extraer preferiblemente en el dico C, con el nombre de la carpeta como pruebaTecnica.
 
@@ -6,7 +6,7 @@ Este proyecto automatiza 3 escenarios de búsqueda de vuelos en la web de LATAM 
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 src/
@@ -21,7 +21,7 @@ src/
 
 ---
 
-## ✅ Requisitos
+## Requisitos
 
 - Java 17
 - Gradle o Maven
@@ -32,7 +32,7 @@ src/
 
 ---
 
-## 🧪 Reportes
+## Reportes
 
 Al finalizar las pruebas, se genera un reporte en:
 
@@ -42,7 +42,7 @@ build/reports/tests/test/index.html
 
 ---
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 ### Si usas Gradle:
 
@@ -56,7 +56,7 @@ gradle test
 
 ---
 
-## 📊 Escenarios automatizados
+## Escenarios automatizados
 
 1. Buscar vuelo ida y vuelta con origen y destino válidos.
 2. Buscar vuelo con destino inválido.
@@ -64,7 +64,7 @@ gradle test
 
 ---
 
-## ✍️ Autor
+## Autor
 
 Yeison Castellanos
 
